@@ -17,7 +17,8 @@ set Swift version bellow.
 
 ### Examples in this xcode project
 - getting items from Yahoo Image Search
-- creating table with RxSwift, Wireframe(from RxSwift Example)
+- RxSwift implementation by https://speakerdeck.com/parakeety/merukariatutefalserxswiftshi-zhuang-gaido
+- RxSwift with Wireframe(from RxSwift Example)
 - example of MVVM base.
 - example of Xcode Unit Test using Spy, Stub 
 
