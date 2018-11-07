@@ -8,8 +8,8 @@ struct Constants {
 }
 ```
 
-after put Constants.swift in this project, pod install.\n
-set Swift version 
+after put Constants.swift in this project, pod install.    
+set Swift version bellow.
 - Alamofire > Swift4
 - AlamofireImage > Swift4
 - RxCocoa > Swift4
