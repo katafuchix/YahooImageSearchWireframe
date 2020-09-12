@@ -28,8 +28,6 @@
 		31B6FD0F219218200054430C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B6FD0E219218200054430C /* Constants.swift */; };
 		568C9A71AACF9E2A9F257C15 /* Pods_YahooImageSearchWireframe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6283A9B4C494C08C07EA0A2E /* Pods_YahooImageSearchWireframe.framework */; };
 		5D27E4FF112C023470FC9840 /* Pods_YahooImageSearchWireframeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5DF03004F40E3421CB6457 /* Pods_YahooImageSearchWireframeTests.framework */; };
-		C233FDAD1F07616EDD79917D /* Pods_ImageSearchSample_Wireframe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF52A6898D85BF867EC118E1 /* Pods_ImageSearchSample_Wireframe.framework */; };
-		F998EA23CDFAA4493C0E871A /* Pods_ImageSearchSample_WireframeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0625598B024D878D4B2171B /* Pods_ImageSearchSample_WireframeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,11 +74,9 @@
 		762707D144CFDA3778D8A330 /* Pods-ImageSearchSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageSearchSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageSearchSample/Pods-ImageSearchSample.release.xcconfig"; sourceTree = "<group>"; };
 		96AB66E6B832FEC5E2A6396A /* Pods-YahooImageSearchWireframeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YahooImageSearchWireframeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YahooImageSearchWireframeTests/Pods-YahooImageSearchWireframeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B76D7AD3F38CBC75A4FA7362 /* Pods-ImageSearchSample+WireframeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageSearchSample+WireframeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageSearchSample+WireframeTests/Pods-ImageSearchSample+WireframeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		BF52A6898D85BF867EC118E1 /* Pods_ImageSearchSample_Wireframe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageSearchSample_Wireframe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5DF03004F40E3421CB6457 /* Pods_YahooImageSearchWireframeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YahooImageSearchWireframeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7566F97A5C43DCD76C8B0C /* Pods-YahooImageSearchWireframeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YahooImageSearchWireframeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YahooImageSearchWireframeTests/Pods-YahooImageSearchWireframeTests.release.xcconfig"; sourceTree = "<group>"; };
 		ECF1EB41379021A4A017DE59 /* Pods-ImageSearchSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageSearchSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageSearchSample/Pods-ImageSearchSample.debug.xcconfig"; sourceTree = "<group>"; };
-		F0625598B024D878D4B2171B /* Pods_ImageSearchSample_WireframeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageSearchSample_WireframeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +84,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C233FDAD1F07616EDD79917D /* Pods_ImageSearchSample_Wireframe.framework in Frameworks */,
 				568C9A71AACF9E2A9F257C15 /* Pods_YahooImageSearchWireframe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,7 +92,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F998EA23CDFAA4493C0E871A /* Pods_ImageSearchSample_WireframeTests.framework in Frameworks */,
 				5D27E4FF112C023470FC9840 /* Pods_YahooImageSearchWireframeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,8 +183,6 @@
 			isa = PBXGroup;
 			children = (
 				624CCB7BDC358F3AE1155981 /* Pods_ImageSearchSample.framework */,
-				BF52A6898D85BF867EC118E1 /* Pods_ImageSearchSample_Wireframe.framework */,
-				F0625598B024D878D4B2171B /* Pods_ImageSearchSample_WireframeTests.framework */,
 				6283A9B4C494C08C07EA0A2E /* Pods_YahooImageSearchWireframe.framework */,
 				CE5DF03004F40E3421CB6457 /* Pods_YahooImageSearchWireframeTests.framework */,
 			);
@@ -345,10 +337,8 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-YahooImageSearchWireframeTests/Pods-YahooImageSearchWireframeTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-YahooImageSearchWireframeTests/Pods-YahooImageSearchWireframeTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/HTMLReader/HTMLReader.framework",
@@ -363,8 +353,6 @@
 				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
@@ -381,7 +369,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YahooImageSearchWireframeTests/Pods-YahooImageSearchWireframeTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YahooImageSearchWireframeTests/Pods-YahooImageSearchWireframeTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E5F0AEA1C2949103AA52B1C7 /* [CP] Embed Pods Frameworks */ = {
@@ -390,7 +378,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-YahooImageSearchWireframe/Pods-YahooImageSearchWireframe-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-YahooImageSearchWireframe/Pods-YahooImageSearchWireframe-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/HTMLReader/HTMLReader.framework",
@@ -417,7 +405,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YahooImageSearchWireframe/Pods-YahooImageSearchWireframe-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YahooImageSearchWireframe/Pods-YahooImageSearchWireframe-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
